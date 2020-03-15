@@ -1,0 +1,8 @@
+2020-02-14 19:37:00,139 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.635 seconds (JVM running for 3.41)
+2020-02-14 19:42:30,339 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 14248 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-14 19:42:30,342 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-14 19:42:30,343 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-14 19:42:32,297 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.474 seconds (JVM running for 3.223)
+2020-02-14 19:43:16,660 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 14364 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-14 19:43:16,663 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-14 19:43:16,663 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

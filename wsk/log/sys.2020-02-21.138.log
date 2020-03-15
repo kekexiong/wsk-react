@@ -1,0 +1,10 @@
+2020-02-21 17:46:52,571 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 17:46:52,573 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-21 17:46:52,574 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-21 17:46:52,575 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 17:46:52,576 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 17:46:52,576 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 17:46:52,577 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 17:46:52,578 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 17:46:52,582 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 17:46:52,583 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 

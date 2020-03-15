@@ -1,0 +1,13 @@
+2020-02-15 17:55:35,429 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-15 17:55:35,431 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-15 17:55:35,432 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-15 17:55:35,433 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-15 17:55:35,434 INFO (TUserController.java:60)- 用户-查询
+2020-02-15 17:56:52,517 INFO (TUserController.java:54)- 用户-查询
+2020-02-15 17:56:52,519 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-15 17:56:52,520 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-15 17:56:52,522 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-15 17:56:52,523 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-15 17:56:52,524 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-15 17:56:52,525 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-15 17:56:52,526 INFO (TUserController.java:60)- 用户-查询

@@ -1,0 +1,16 @@
+2020-02-28 15:44:11,328 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-28 15:44:11,330 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-28 15:44:11,330 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-28 15:44:11,331 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 15:44:11,332 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-28 15:44:15,644 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-28 15:44:15,645 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-28 15:44:15,646 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-28 15:44:15,649 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-28 15:44:15,650 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-28 15:44:15,651 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-28 15:44:15,652 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 15:44:15,653 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-28 15:44:26,923 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 3165 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-28 15:44:26,926 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-28 15:44:26,926 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

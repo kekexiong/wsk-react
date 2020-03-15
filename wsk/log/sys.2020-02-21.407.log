@@ -1,0 +1,15 @@
+2020-02-21 21:53:45,736 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-21 21:53:45,736 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-21 21:53:45,739 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 21:53:45,739 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 21:53:45,740 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:53:45,740 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:53:45,741 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 21:53:45,741 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 21:53:45,743 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:53:45,743 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:53:45,743 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:53:45,744 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:58:30,204 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 60634 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-21 21:58:30,211 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-21 21:58:30,212 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

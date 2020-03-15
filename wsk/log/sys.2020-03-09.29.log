@@ -1,0 +1,8 @@
+2020-03-09 16:25:19,703 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-03-04 00:00:00.0(Timestamp), 2020-03-09 00:00:00.0(Timestamp), 0(Integer), 20(Integer)
+2020-03-09 16:25:19,709 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-09 16:25:19,711 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER WHERE BIRTHDAY>=? and BIRTHDAY<=? 
+2020-03-09 16:25:19,712 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-03-04 00:00:00.0(Timestamp), 2020-03-09 00:00:00.0(Timestamp)
+2020-03-09 16:25:19,715 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-09 16:25:19,716 INFO (UserController.java:61)- 用户-查询
+2020-03-09 16:25:22,099 INFO (UserController.java:82)- 用户-详细
+2020-03-09 16:25:22,100 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 

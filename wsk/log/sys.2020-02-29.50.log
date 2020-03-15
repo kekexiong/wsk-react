@@ -1,0 +1,12 @@
+2020-02-29 21:39:48,696 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:39:48,698 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM ROLE 
+2020-02-29 21:39:48,699 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-29 21:39:48,702 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:39:48,702 INFO (RoleController.java:62)- 菜单-查询
+2020-02-29 21:39:50,108 INFO (RoleController.java:84)- 菜单-详细
+2020-02-29 21:39:50,110 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT ROLE_ID, ROLE_NAME, SCOPE, STS, DEPT_ID, REMARKS, CTE_USER_NO, CTE_DT, UTE_USER_NO, UTE_DT FROM ROLE WHERE ROLE_ID=? 
+2020-02-29 21:39:50,111 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: R001(String)
+2020-02-29 21:39:50,116 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:39:50,118 INFO (RoleController.java:86)- 菜单-详细
+2020-02-29 21:39:50,119 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE TYPE=? order by t.SORT 
+2020-02-29 21:39:50,119 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: root(String)

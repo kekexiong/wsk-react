@@ -1,0 +1,17 @@
+2020-03-01 19:40:32,529 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-01 19:40:32,531 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-03-01 19:40:32,532 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String)
+2020-03-01 19:40:32,533 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2020-03-01 19:40:32,534 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-03-01 19:40:32,535 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1010(String)
+2020-03-01 19:40:32,536 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-01 19:40:32,537 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-03-01 19:40:32,537 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1020(String)
+2020-03-01 19:40:32,538 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-01 19:40:32,539 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-03-01 19:40:32,539 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1030(String)
+2020-03-01 19:40:32,540 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-01 19:40:32,541 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-03-01 19:40:32,541 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1040(String)
+2020-03-01 19:40:32,542 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-03-01 19:40:32,543 INFO (RoleController.java:91)- [{"a_attr":[],"li_attr":[],"children":[{"a_attr":[],"li_attr":[],"children":[],"id":"USR1010","text":"用户信息管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":true},"type":"file"}],"id":"USR1000","text":"用户系统","state":{"loaded":true,"opened":true,"disabled":0,"selected":true},"type":"root"},{"a_attr":[],"li_attr":[],"children":[{"a_attr":[],"li_attr":[],"children":[],"id":"SYS1010","text":"字典管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":true},"type":"file"},{"a_attr":[],"li_attr":[],"children":[],"id":"SYS1020","text":"菜单管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":false},"type":"file"},{"a_attr":[],"li_attr":[],"children":[],"id":"SYS1030","text":"角色管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":true},"type":"file"},{"a_attr":[],"li_attr":[],"children":[],"id":"SYS1040","text":"部门管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":true},"type":"file"}],"id":"SYS1000","text":"系统管理","state":{"loaded":true,"opened":true,"disabled":0,"selected":false},"type":"root"}]

@@ -1,0 +1,13 @@
+2020-03-04 16:03:17,809 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-04 16:03:17,813 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER 
+2020-03-04 16:03:17,813 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-04 16:03:17,828 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-04 16:03:17,829 INFO (UserController.java:61)- 用户-查询
+2020-03-04 16:03:21,000 INFO (UserController.java:82)- 用户-详细
+2020-03-04 16:03:21,001 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 
+2020-03-04 16:03:21,002 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String)
+2020-03-04 16:03:21,004 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-04 16:03:21,005 INFO (UserController.java:84)- 用户-详细
+2020-03-04 16:11:13,005 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 1496 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-03-04 16:11:13,008 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-04 16:11:13,009 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

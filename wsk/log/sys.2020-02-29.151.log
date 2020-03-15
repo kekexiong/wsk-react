@@ -1,0 +1,8 @@
+2020-02-29 22:36:21,196 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE TYPE=? order by t.SORT 
+2020-02-29 22:36:21,198 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: root(String)
+2020-02-29 22:36:21,199 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-29 22:36:21,200 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-02-29 22:36:21,201 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USR1000(String)
+2020-02-29 22:36:21,202 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 22:36:21,203 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-02-29 22:36:21,204 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USR1010(String)

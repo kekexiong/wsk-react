@@ -1,0 +1,10 @@
+2020-03-11 19:00:30,192 INFO (UserController.java:215)- 用户-导入
+2020-03-11 19:00:30,194 INFO (UserService.java:118)- 批量添加用户信息
+2020-03-11 19:00:30,538 INFO (ExcelUtils.java:107)- #批量导入操作，开始遍历数据表！
+2020-03-11 19:00:30,544 INFO (ExcelUtils.java:192)- #批量导入操作#遍历成功，有0条数据！
+2020-03-11 19:01:27,080 INFO (UserController.java:215)- 用户-导入
+2020-03-11 19:01:27,082 INFO (UserService.java:118)- 批量添加用户信息
+2020-03-11 19:01:27,122 INFO (ExcelUtils.java:107)- #批量导入操作，开始遍历数据表！
+2020-03-11 19:01:27,124 INFO (ExcelUtils.java:192)- #批量导入操作#遍历成功，有2条数据！
+2020-03-11 19:01:27,124 INFO (UserService.java:150)- 批量添加用户信息
+2020-03-11 19:01:27,137 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO USER( USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT ) SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL union all SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL 

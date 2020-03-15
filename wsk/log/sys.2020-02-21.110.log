@@ -1,0 +1,11 @@
+2020-02-21 16:58:22,273 INFO (RoleController.java:55)- 菜单-查询
+2020-02-21 16:58:22,276 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.ROLE_ID as "roleId", t.ROLE_NAME as "roleName", t.SCOPE as "scope", t.STS as "sts", '' as "stsName", t.DEPT_ID as "deptId", t.REMARKS as "remarks", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt" FROM ROLE t limit ?, ? 
+2020-02-21 16:58:22,277 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-21 16:58:22,279 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 16:58:22,280 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM ROLE 
+2020-02-21 16:58:22,280 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-21 16:58:22,282 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 16:58:22,282 INFO (RoleController.java:61)- 菜单-查询
+2020-02-21 16:58:22,938 INFO (RoleController.java:55)- 菜单-查询
+2020-02-21 16:58:22,939 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.ROLE_ID as "roleId", t.ROLE_NAME as "roleName", t.SCOPE as "scope", t.STS as "sts", '' as "stsName", t.DEPT_ID as "deptId", t.REMARKS as "remarks", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt" FROM ROLE t limit ?, ? 
+2020-02-21 16:58:22,940 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)

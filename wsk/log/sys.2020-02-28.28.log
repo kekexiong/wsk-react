@@ -1,0 +1,8 @@
+2020-02-28 15:32:43,983 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 15:32:43,984 INFO (RoleController.java:84)- 菜单-详细
+2020-02-28 15:33:12,820 INFO (RoleController.java:132)- 菜单-更新
+2020-02-28 15:33:12,825 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE ROLE SET ROLE_ID=?, ROLE_NAME=?, SCOPE=?, STS=?, DEPT_ID=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE ROLE_ID=? 
+2020-02-28 15:33:12,827 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: R001(String), 管理员(String), all(String), 0(String), 000000(String), (String), admin(String), 2020-02-28 15:33:12.824(Timestamp), R001(String)
+2020-02-28 15:33:12,835 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-28 15:33:12,850 INFO (RoleController.java:55)- 菜单-查询
+2020-02-28 15:33:12,851 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.ROLE_ID as "roleId", t.ROLE_NAME as "roleName", t.SCOPE as "scope", t.STS as "sts", t.DEPT_ID as "deptId", t.REMARKS as "remarks", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt" FROM ROLE t limit ?, ? 

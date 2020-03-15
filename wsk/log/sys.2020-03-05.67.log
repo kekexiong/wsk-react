@@ -1,0 +1,12 @@
+2020-03-05 15:49:39,170 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 15:49:39,172 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER 
+2020-03-05 15:49:39,173 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-05 15:49:39,176 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 15:49:39,177 INFO (UserController.java:61)- 用户-查询
+2020-03-05 15:49:55,541 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 3298 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-03-05 15:49:55,551 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-05 15:49:55,552 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-03-05 15:49:59,690 INFO (StartupInfoLogger.java:61)- Started WskApplication in 5.313 seconds (JVM running for 7.525)
+2020-03-05 15:50:00,022 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-03-05 15:50:00,047 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-03-05 15:50:00,076 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 17

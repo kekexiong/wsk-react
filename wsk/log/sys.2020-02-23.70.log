@@ -1,0 +1,16 @@
+2020-02-23 21:35:01,440 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-23 21:35:01,442 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-23 21:35:01,445 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 21:35:01,447 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-23 21:35:15,411 INFO (DicCodeController.java:106)- 菜单-保存
+2020-02-23 21:35:15,424 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO DIC_CODE ( UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-02-23 21:35:15,426 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 316f98233d404892a179f1a1d94ec3cd(String), SER-SEX_CD111(String), 1111(String), 111(String), 0(String), null, null, admin(String), 2020-02-23 21:35:15.423(Timestamp)
+2020-02-23 21:35:15,429 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-23 21:35:15,455 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-23 21:35:15,458 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-23 21:35:15,459 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-23 21:35:15,462 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 14
+2020-02-23 21:35:15,463 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-23 21:35:15,465 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-23 21:35:15,468 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 21:35:15,470 INFO (DicCodeController.java:61)- 菜单-查询

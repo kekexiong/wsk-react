@@ -1,0 +1,8 @@
+2020-02-28 16:56:47,964 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 16:56:47,966 INFO (DicCodeController.java:84)- 菜单-详细
+2020-02-28 16:56:49,586 INFO (DicCodeController.java:133)- 菜单-更新
+2020-02-28 16:56:49,596 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-02-28 16:56:49,598 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-SEX_CD(String), 1(String), 男(String), 1(String), admin(String), 2020-02-28 16:56:49.596(Timestamp), e5a63231a54a498088de8ea06281f68d(String)
+2020-02-28 16:56:49,602 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-28 16:56:49,619 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-28 16:56:49,620 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY like '%USER-S EX_CD%' limit ?, ? 

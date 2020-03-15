@@ -1,0 +1,11 @@
+2020-02-23 21:23:18,399 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-23 21:23:18,404 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 13
+2020-02-23 21:23:18,406 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-23 21:23:18,407 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-23 21:23:18,410 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 21:23:18,411 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-23 21:23:55,470 INFO (DicCodeController.java:82)- 菜单-详细
+2020-02-23 21:23:55,471 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-02-23 21:23:55,472 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 9e89bf56d0e249e4aa5179ac9d6279a0(String)
+2020-02-23 21:23:55,473 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 21:23:55,474 INFO (DicCodeController.java:84)- 菜单-详细

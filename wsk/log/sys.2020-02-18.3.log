@@ -1,0 +1,16 @@
+2020-02-18 14:44:28,364 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 14:44:28,365 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 14:44:28,367 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 14:44:28,368 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 14:44:28,369 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 14:44:28,371 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 14:44:28,372 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 14:44:28,372 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 14:44:28,375 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 14:44:28,376 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 14:44:28,376 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 14:44:28,378 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 14:44:28,380 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 14:44:28,380 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 14:44:28,382 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 14:44:28,383 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 

@@ -1,0 +1,8 @@
+2020-02-29 22:29:04,823 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.684 seconds (JVM running for 3.412)
+2020-02-29 22:29:05,136 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-29 22:29:05,152 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-29 22:29:05,171 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-29 22:29:05,176 INFO (DicCodeUtils.java:78)- 字典加载完成！
+2020-02-29 22:30:02,376 INFO (RoleController.java:56)- 菜单-查询
+2020-02-29 22:30:02,378 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.ROLE_ID as "roleId", t.ROLE_NAME as "roleName", t.SCOPE as "scope", t.STS as "sts", t.DEPT_ID as "deptId", t.REMARKS as "remarks", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt" FROM ROLE t limit ?, ? 
+2020-02-29 22:30:02,379 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)

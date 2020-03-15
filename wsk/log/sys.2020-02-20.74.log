@@ -1,0 +1,16 @@
+2020-02-20 20:53:10,104 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:53:10,104 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:53:10,104 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:53:10,104 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:53:10,105 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-USER_STS(String)
+2020-02-20 20:53:10,105 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-SEX(String)
+2020-02-20 20:53:10,105 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-USER_STS(String)
+2020-02-20 20:53:10,106 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-EMPOWER_ROLES(String)
+2020-02-20 20:53:10,109 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:53:10,109 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:53:10,109 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:53:10,109 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:53:10,109 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 20:53:10,109 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 20:53:10,109 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 20:53:10,109 INFO (DicCodeController.java:61)- 菜单-查询

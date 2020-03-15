@@ -1,0 +1,16 @@
+2020-02-22 21:29:43,600 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-02-22 21:29:43,603 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 21:29:43,603 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 21:29:43,605 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 21:29:43,605 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 21:29:51,869 INFO (MenuController.java:164)- 菜单-删除
+2020-02-22 21:29:51,872 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: delete from MENU where MENU_ID in ( ? ) 
+2020-02-22 21:29:51,872 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: YH0005(String)
+2020-02-22 21:29:51,880 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-22 21:29:51,880 INFO (MenuController.java:166)- 菜单-删除
+2020-02-22 21:29:51,898 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 21:29:51,899 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-22 21:29:51,899 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-22 21:29:51,903 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-02-22 21:29:51,904 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 21:29:51,905 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 

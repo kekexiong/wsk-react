@@ -1,0 +1,8 @@
+2020-02-21 21:47:27,358 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? and CODE_VALUE=? limit ?, ? 
+2020-02-21 21:47:27,357 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? and CODE_VALUE=? limit ?, ? 
+2020-02-21 21:47:27,359 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 1(String), 0(Integer), 1000(Integer)
+2020-02-21 21:47:27,359 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(String), 0(Integer), 1000(Integer)
+2020-02-21 21:47:27,360 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:47:27,360 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:47:27,361 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-21 21:47:27,361 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 

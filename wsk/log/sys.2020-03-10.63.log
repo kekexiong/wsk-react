@@ -1,0 +1,8 @@
+2020-03-10 21:21:26,654 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-10 21:21:26,656 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER 
+2020-03-10 21:21:26,657 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-10 21:21:26,662 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-10 21:21:26,666 INFO (UserController.java:61)- 用户-查询
+2020-03-10 21:21:31,833 INFO (UserController.java:215)- 用户-导入
+2020-03-10 21:21:31,834 INFO (UserService.java:118)- 批量添加用户信息
+2020-03-10 21:21:31,864 INFO (ExcelUtils.java:106)- #批量导入操作，开始遍历数据表！

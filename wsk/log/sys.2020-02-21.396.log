@@ -1,0 +1,8 @@
+2020-02-21 21:52:00,337 INFO (StartupInfoLogger.java:61)- Started WskApplication in 4.541 seconds (JVM running for 6.208)
+2020-02-21 21:52:00,685 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-21 21:52:00,715 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-21 21:52:00,734 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-02-21 21:52:00,739 INFO (DicCodeUtils.java:82)- 字典加载完成！
+2020-02-21 21:52:43,287 INFO (MenuController.java:132)- 菜单-更新
+2020-02-21 21:52:43,292 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, ICON=?, SORT=?, IS_SHOW=?, PERMISSSION=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 
+2020-02-21 21:52:43,295 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String), 系统管理(String), (String), (String), 2(String), 1(String), A(String), 0(String), (String), admin(String), 2020-02-21 21:52:43.29(Timestamp), SYS1000(String)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelTemplateList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				   xsi:noNamespaceSchemaLocation="../excel_xsd/excel-template.xsd">
+	<!-- 导入错误信息导出 -->
+	<excelTemplate>
+		<excelId>dicCodeFailExcel</excelId>
+        <excelName>用户信息批量错误信息</excelName>
+        <excelFileName></excelFileName><!-- 按照不设置模板方式导出 -->
+        <excelHead headRowIndex="1">          
+          <excelColList excelColIndex="0"  excelColId="bnkCd" excelColName="主账号" excelColWidth="3000"/>
+          <excelColList excelColIndex="1"  excelColId="failReason" excelColName="错误原因" excelColWidth="3000"/>
+        </excelHead>
+	</excelTemplate>
+	<!-- 主页面导出功能 -->
+	<excelTemplate>
+		<excelId>dicCodeExportExcel</excelId>
+        <excelName>用户信息</excelName>
+        <excelFileName></excelFileName><!-- 按照不设置模板导出 -->
+        <excelHead headRowIndex="1">
+        		<excelColList excelColIndex="0" excelColId="codeKey" excelColName="字典KEY"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="1" excelColId="codeValue" excelColName="值"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="2" excelColId="codeName" excelColName="名称"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="3" excelColId="codeSts" excelColName="状态"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="4" excelColId="uteUserNo" excelColName="更新人"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="5" excelColId="uteDt" excelColName="更新日期"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="6" excelColId="cteUserNo" excelColName="创建人"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="7" excelColId="cteDt" excelColName="创建日期"  excelColWidth="3000"/>
+        </excelHead>
+	</excelTemplate>
+</excelTemplateList>

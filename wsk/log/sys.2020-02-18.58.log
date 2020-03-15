@@ -1,0 +1,10 @@
+2020-02-18 19:51:18,822 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-18 19:51:18,824 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX_CD(String), 0(Integer), 20(Integer)
+2020-02-18 19:51:18,826 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-02-18 19:51:18,826 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-18 19:51:18,827 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX_CD(String)
+2020-02-18 19:51:18,828 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-18 19:51:18,829 INFO (DicCodeController.java:60)- 用户-查询
+2020-02-18 20:14:16,643 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 44233 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-18 20:14:16,647 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-18 20:14:16,647 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

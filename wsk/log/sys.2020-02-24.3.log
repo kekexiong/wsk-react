@@ -1,0 +1,5 @@
+2020-02-24 10:52:45,856 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.74 seconds (JVM running for 4.92)
+2020-02-24 10:52:46,311 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-24 10:52:46,336 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-24 10:52:46,369 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 13
+2020-02-24 10:52:46,375 INFO (DicCodeUtils.java:78)- 字典加载完成！

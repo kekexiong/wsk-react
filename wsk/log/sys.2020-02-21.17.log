@@ -1,0 +1,9 @@
+2020-02-21 12:07:05,775 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 12:07:05,775 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 1(String)
+2020-02-21 12:07:05,777 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 12:07:05,778 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 12:07:05,778 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 12:07:05,778 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 12:07:14,657 INFO (MenuController.java:132)- 菜单-更新
+2020-02-21 12:07:14,661 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, ICON=?, SORT=?, IS_SHOW=?, PERMISSSION=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 
+2020-02-21 12:07:14,663 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String), 系统管理(String), (String), (String), 2(String), 1(String), (String), 0(String), (String), admin(String), 2020-02-21 12:07:14.661(Timestamp), SYS1000(String)

@@ -1,0 +1,12 @@
+2020-02-14 19:11:20,415 INFO (TUserController.java:197)- 用户-下载导入模板
+2020-02-14 19:11:46,490 INFO (TUserController.java:54)- 用户-查询
+2020-02-14 19:11:46,492 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-14 19:11:46,493 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-14 19:11:46,495 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-14 19:11:46,497 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-14 19:11:46,498 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-14 19:11:46,500 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-14 19:11:46,500 INFO (TUserController.java:60)- 用户-查询
+2020-02-14 19:11:50,326 INFO (TUserController.java:81)- 用户-详细
+2020-02-14 19:11:50,328 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT name, age, tel, uuid FROM T_USER WHERE uuid=? 
+2020-02-14 19:11:50,328 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 158224d300fd4f7fb3df9d67ed6c1538(String)

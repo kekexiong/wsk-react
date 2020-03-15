@@ -1,0 +1,9 @@
+2020-03-06 17:29:06,274 INFO (UserController.java:82)- 用户-详细
+2020-03-06 17:29:06,276 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 
+2020-03-06 17:29:06,277 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0002(String)
+2020-03-06 17:29:06,279 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-06 17:29:06,280 INFO (UserController.java:84)- 用户-详细
+2020-03-06 17:29:08,202 INFO (UserController.java:132)- 用户-更新
+2020-03-06 17:29:08,206 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE USER SET USER_ID=?, USER_NAME=?, REAL_NAME=?, BIRTHDAY=?, TEL_NO=?, MAIL=?, USER_STS=?, LOGIN_PWD=?, IS_ALLOW_LOGIN=?, LAST_UPT_PWD_TIME=?, UTE_USER_NO=?, UTE_DT=? WHERE USER_ID=? 
+2020-03-06 17:29:08,210 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0002(String), 拉菲(String), 郜娜(String), 2020-03-04 00:00:00.0(Timestamp), 17600802256(String), sdfsf@aa.cn(String), 1(String), 123456(String), 1(String), 2020-03-05 00:00:00.0(Timestamp), admin(String), 2020-03-06 17:29:08.203(Timestamp), T0002(String)
+2020-03-06 17:29:08,214 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

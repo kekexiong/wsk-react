@@ -1,0 +1,8 @@
+2020-02-22 22:42:17,177 INFO (MenuController.java:82)- 菜单-详细
+2020-02-22 22:42:17,179 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-22 22:42:17,180 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: YH0005(String)
+2020-02-22 22:42:17,181 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 22:42:17,182 INFO (MenuController.java:84)- 菜单-详细
+2020-02-22 22:42:18,313 INFO (MenuController.java:132)- 菜单-更新
+2020-02-22 22:42:18,315 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, TYPE=?, SORT=?, ICON=?, IS_SHOW=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 
+2020-02-22 22:42:18,316 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: YH0005(String), (String), (String), (String), (String), (String), (String), (String), (String), admin(String), 2020-02-22 22:42:18.315(Timestamp), YH0005(String)

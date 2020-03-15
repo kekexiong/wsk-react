@@ -1,0 +1,8 @@
+2020-03-11 20:43:18,535 INFO (UserController.java:215)- 用户-导入
+2020-03-11 20:43:18,536 INFO (UserService.java:118)- 批量添加用户信息
+2020-03-11 20:43:18,561 INFO (ExcelUtils.java:107)- #批量导入操作，开始遍历数据表！
+2020-03-11 20:43:18,563 INFO (ExcelUtils.java:192)- #批量导入操作#遍历成功，有2条数据！
+2020-03-11 20:43:18,564 INFO (UserService.java:150)- 批量添加用户信息
+2020-03-11 20:43:18,566 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO USER( USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT ) SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL union all SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL 
+2020-03-11 20:43:18,567 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0003(String), zhao_qg(String), 赵秋根(String), 1(String), 2020-03-11 20:43:18.564(Timestamp), 17600802256(String), sdfsf@aa.cn(String), (String), (String), 1(String), 123456(String), (String), (String), (String), 1(String), (String), null, null, null, null, null, T0004(String), 拉菲(String), 郜娜(String), 2(String), 2020-03-11 20:43:18.564(Timestamp), 17600802256(String), sdfsf@aa.cn(String), (String), (String), 1(String), 123456(String), (String), (String), (String), 1(String), (String), null, null, null, null, null
+2020-03-11 20:43:18,570 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 2

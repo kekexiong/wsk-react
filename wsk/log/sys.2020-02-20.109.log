@@ -1,0 +1,16 @@
+2020-02-20 21:19:09,611 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 21:19:09,612 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-20 21:19:09,613 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX(String), 1(String)
+2020-02-20 21:19:09,614 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 21:19:09,614 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 21:19:16,239 INFO (UserController.java:88)- 菜单-详细
+2020-02-20 21:19:16,245 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, UTE_TM, CTE_DT, CTE_TM FROM USER WHERE USER_ID=? 
+2020-02-20 21:19:16,246 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String)
+2020-02-20 21:19:16,248 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 21:19:16,249 INFO (UserController.java:90)- 菜单-详细
+2020-02-20 21:19:16,254 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-20 21:19:16,255 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? and CODE_VALUE=? limit ?, ? 
+2020-02-20 21:19:16,256 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX(String), 1(String), 0(Integer), 1000(Integer)
+2020-02-20 21:19:16,257 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 21:19:16,257 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-20 21:19:16,258 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX(String), 1(String)

@@ -1,0 +1,8 @@
+2020-02-27 16:09:57,024 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 1944 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-27 16:09:57,028 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-27 16:09:57,028 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-27 16:09:59,263 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.766 seconds (JVM running for 3.64)
+2020-02-27 16:09:59,616 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-27 16:09:59,633 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-27 16:09:59,672 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 13
+2020-02-27 16:09:59,677 INFO (DicCodeUtils.java:78)- 字典加载完成！

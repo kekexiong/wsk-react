@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wutong.wsk.mapper.system.DeptMapper">
+    <resultMap id="deptMap" type="com.wutong.wsk.domain.system.Dept" >
+     <result column="DEPT_NO" property="deptNo"/>
+     <result column="DEPT_NAME" property="deptName"/>
+     <result column="HEAD_ID" property="headId"/>
+     <result column="AA" property="aa"/>
+    </resultMap>
+    
+    <sql id="whereQueryCondition">
+        <where>
+            <if test="dept.deptNo!= null and dept.deptNo!= ''">
+                and DEPT_NO=#{dept.deptNo}
+            </if>
+            <if test="dept.deptName!= null and dept.deptName!= ''">
+                and DEPT_NAME=#{dept.deptName}
+            </if>
+            <if test="dept.headId!= null and dept.headId!= ''">
+                and HEAD_ID=#{dept.headId}
+            </if>
+            <if test="dept.aa!= null and dept.aa!= ''">
+                and AA=#{dept.aa}
+            </if>
+        </where>
+    </sql>
+    
+    <select id="findByCondition" parameterType="java.util.Map" resultType="Map">
+        SELECT
+                        t.DEPT_NO as "deptNo",
+                        t.DEPT_NAME as "deptName",
+                        t.HEAD_ID as "headId",
+                        t.AA as "aa"
+            <!-- 请在此关联查询表 -->
+            FROM DEPT t
+            <include refid="whereQueryCondition"></include>
+            limit #{startRow}, #{endRow}
+    </select>
+    <select id="findByConditionCount" parameterType="java.util.Map" resultType="java.lang.Integer">
+        SELECT
+            COUNT(*) 
+        FROM DEPT
+        <include refid="whereQueryCondition"></include>
+    </select>
+    <select id="getByKey" parameterType="com.wutong.wsk.domain.system.Dept" resultMap="deptMap">
+        SELECT
+            DEPT_NO, DEPT_NAME, HEAD_ID, AA
+        FROM 
+            DEPT
+        WHERE
+              DEPT_NO=#{deptNo}
+    </select>
+    <insert id="insert" parameterType="com.wutong.wsk.domain.system.Dept">
+        INSERT INTO DEPT (
+                DEPT_NO,
+                DEPT_NAME,
+                HEAD_ID,
+                AA
+        ) VALUES (
+                #{deptNo,jdbcType=VARCHAR},
+                #{deptName,jdbcType=VARCHAR},
+                #{headId,jdbcType=VARCHAR},
+                #{aa,jdbcType=VARCHAR}
+        )
+    </insert>
+    <update id="update" parameterType="com.wutong.wsk.domain.system.Dept">
+        UPDATE DEPT
+        SET
+                    DEPT_NO=#{deptNo},
+                    DEPT_NAME=#{deptName},
+                    HEAD_ID=#{headId}
+        WHERE
+                      DEPT_NO=#{deptNo}
+            
+    </update>
+    <delete id="delete" parameterType="java.util.Map">
+         delete from DEPT
+         where 
+                      DEPT_NO
+           in 
+        <foreach item="item" index="index" collection="uuids" open="(" separator="," close=")">  
+              #{item}
+         </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,10 @@
+2020-02-20 20:46:15,453 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-20 20:46:15,454 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-20 20:46:15,456 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-20 20:46:15,456 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-20 20:46:15,457 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: ROLE-STS(String), 0(Integer), 1000(Integer)
+2020-02-20 20:46:15,457 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: ROLE-STS(String), 0(Integer), 1000(Integer)
+2020-02-20 20:46:15,459 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 20:46:15,459 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 20:46:15,460 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:46:15,460 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 

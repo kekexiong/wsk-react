@@ -1,0 +1,13 @@
+2020-02-20 20:50:49,663 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-USER_STS(String)
+2020-02-20 20:50:49,664 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:50:49,664 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-EMPOWER_ROLES(String), 0(Integer), 1000(Integer)
+2020-02-20 20:50:49,665 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-USER_STS(String)
+2020-02-20 20:50:49,666 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:50:49,666 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 20:50:49,666 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 20:50:49,667 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:50:49,667 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-20 20:50:49,667 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-20 20:50:49,667 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-EMPOWER_ROLES(String)
+2020-02-20 20:50:49,668 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 20:50:49,669 INFO (DicCodeController.java:61)- 菜单-查询

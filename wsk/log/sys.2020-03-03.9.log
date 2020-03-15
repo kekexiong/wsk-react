@@ -1,0 +1,12 @@
+2020-03-03 17:17:56,314 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-03-03 17:17:56,317 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-03 17:17:56,322 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-03 17:17:56,322 INFO (DicCodeController.java:61)- 菜单-查询
+2020-03-03 17:18:01,871 INFO (DicCodeController.java:82)- 菜单-详细
+2020-03-03 17:18:01,873 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-03-03 17:18:01,874 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: af4cdf753cbc427781271aeb0d8bb045(String)
+2020-03-03 17:18:01,877 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-03 17:18:01,878 INFO (DicCodeController.java:84)- 菜单-详细
+2020-03-03 17:18:06,687 INFO (DicCodeController.java:133)- 菜单-更新
+2020-03-03 17:18:06,689 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-03-03 17:18:06,691 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-SEX(String), 2(String), 女(String), 1(String), admin(String), 2020-03-03 17:18:06.689(Timestamp), af4cdf753cbc427781271aeb0d8bb045(String)

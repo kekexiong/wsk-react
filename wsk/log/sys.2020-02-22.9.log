@@ -1,0 +1,18 @@
+2020-02-22 10:57:43,832 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.53 seconds (JVM running for 3.253)
+2020-02-22 10:57:44,186 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-22 10:57:44,214 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-22 10:57:44,233 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-02-22 10:57:44,238 INFO (DicCodeUtils.java:82)- 字典加载完成！
+2020-02-22 10:57:59,604 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-22 10:57:59,604 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-22 10:57:59,605 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-22 10:57:59,604 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-22 10:57:59,610 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-22 10:57:59,610 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-22 10:57:59,610 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-22 10:57:59,610 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-22 10:57:59,611 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-22 10:57:59,611 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-22 10:57:59,611 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-22 10:57:59,611 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-22 10:57:59,613 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2

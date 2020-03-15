@@ -1,0 +1,7 @@
+2020-02-20 20:13:59,757 INFO (RoleController.java:61)- 菜单-查询
+2020-02-20 20:35:52,702 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 91259 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-20 20:35:52,706 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-20 20:35:52,706 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-20 20:35:55,352 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.21 seconds (JVM running for 4.21)
+2020-02-20 20:36:12,159 INFO (UserController.java:61)- 菜单-查询
+2020-02-20 20:36:12,543 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.USER_ID as "userId", t.USER_NAME as "userName", t.REAL_NAME as "realName", t.SEX as "sex", t.BIRTHDAY as "birthday", t.TEL_NO as "telNo", t.MAIL as "mail", t.ID_NUMBER as "idNumber", t.DEPT_NO as "deptNo", t.USER_STS as "userSts", t.LOGIN_PWD as "loginPwd", t.LOGIN_TIME as "loginTime", t.LOGIN_IP as "loginIp", t.EMPOWER_ROLES as "empowerRoles", t.IS_ALLOW_LOGIN as "isAllowLogin", t.PWD_ERR_CUNT as "pwdErrCunt", t.LAST_UPT_PWD_TIME as "lastUptPwdTime", t.CTE_USER_NO as "cteUserNo", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.UTE_TM as "uteTm", t.CTE_DT as "cteDt", t.CTE_TM as "cteTm" FROM USER t WHERE BIRTHDAY>=? and BIRTHDAY<=? limit ?, ? 

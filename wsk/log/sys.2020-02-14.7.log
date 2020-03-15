@@ -1,0 +1,10 @@
+2020-02-14 19:11:50,330 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-14 19:11:50,331 INFO (TUserController.java:83)- 用户-详细
+2020-02-14 19:11:57,182 INFO (TUserController.java:81)- 用户-详细
+2020-02-14 19:11:57,183 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT name, age, tel, uuid FROM T_USER WHERE uuid=? 
+2020-02-14 19:11:57,184 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 63c06d7d626540058fffcea9f55b39ab(String)
+2020-02-14 19:11:57,185 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-14 19:11:57,185 INFO (TUserController.java:83)- 用户-详细
+2020-02-14 19:34:40,640 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 13146 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-14 19:34:40,643 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-14 19:34:40,644 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

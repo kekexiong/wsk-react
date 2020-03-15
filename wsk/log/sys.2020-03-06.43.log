@@ -1,0 +1,11 @@
+2020-03-06 17:28:05,109 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-03-06 17:28:05,127 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-06 17:28:05,129 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER 
+2020-03-06 17:28:05,130 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-06 17:28:05,136 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-06 17:28:05,137 INFO (UserController.java:61)- 用户-查询
+2020-03-06 17:28:08,735 INFO (UserController.java:82)- 用户-详细
+2020-03-06 17:28:08,737 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 
+2020-03-06 17:28:08,738 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0002(String)
+2020-03-06 17:28:08,741 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-06 17:28:08,743 INFO (UserController.java:84)- 用户-详细

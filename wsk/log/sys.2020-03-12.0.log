@@ -1,0 +1,8 @@
+2020-03-12 15:04:46,113 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 1715 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-03-12 15:04:46,117 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-12 15:04:46,118 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-03-12 15:04:48,192 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.541 seconds (JVM running for 3.703)
+2020-03-12 15:04:48,534 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-03-12 15:04:48,551 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-03-12 15:04:48,590 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 17
+2020-03-12 15:04:48,595 INFO (DicCodeUtils.java:78)- {MENU-IS_SHOW0=隐藏, MENU-IS_SHOW1=显示, USER-IS_ALLOW_LOGIN1=允许, USER-IS_ALLOW_LOGIN0=禁止, USER-USER_STS2=冻结, USER-USER_STS0=删除, USER-USER_STS1=正常, MENU-STS1=有效, MENU-TYPEfile=菜单, ROLE-STS0=无效, MENU-STS0=无效, ROLE-STS1=有效, USER-SEX2=女, USER-SEX1=男, DIC_CODE-CODE_STS1=有效, DIC_CODE-CODE_STS0=失效, MENU-TYPEroot=文件夹}加载加载字典表

@@ -1,0 +1,12 @@
+2020-02-14 20:23:55,428 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-14 20:23:55,430 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-14 20:23:55,431 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-14 20:23:55,432 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-14 20:23:55,433 INFO (TUserController.java:60)- 用户-查询
+2020-02-14 20:37:24,230 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 21185 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-14 20:37:24,233 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-14 20:37:24,234 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-14 20:37:27,495 INFO (StartupInfoLogger.java:61)- Started WskApplication in 4.106 seconds (JVM running for 4.846)
+2020-02-14 20:38:32,386 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 21316 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-14 20:38:32,393 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-14 20:38:32,394 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

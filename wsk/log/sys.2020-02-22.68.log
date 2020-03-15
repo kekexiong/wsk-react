@@ -1,0 +1,12 @@
+2020-02-22 12:08:47,754 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 6
+2020-02-22 12:08:47,756 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 12:08:47,756 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 12:08:47,758 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 12:08:47,758 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 12:08:55,494 INFO (MenuController.java:82)- 菜单-详细
+2020-02-22 12:08:55,495 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, ICON, SORT, IS_SHOW, TYPE, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-22 12:08:55,496 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String)
+2020-02-22 12:08:55,497 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 12:08:55,498 INFO (MenuController.java:84)- 菜单-详细
+2020-02-22 12:09:00,291 INFO (MenuController.java:132)- 菜单-更新
+2020-02-22 12:09:00,293 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, ICON=?, SORT=?, IS_SHOW=?, TYPE=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 

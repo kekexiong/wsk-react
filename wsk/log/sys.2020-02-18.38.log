@@ -1,0 +1,9 @@
+2020-02-18 19:30:59,744 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: a6505c6bda7e472488533fd11b10d229(String)
+2020-02-18 19:30:59,746 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-18 19:30:59,747 INFO (DicCodeController.java:83)- 用户-详细
+2020-02-18 19:32:31,587 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 39348 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-18 19:32:31,590 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-18 19:32:31,590 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-18 19:32:33,634 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.491 seconds (JVM running for 3.213)
+2020-02-18 19:32:43,373 INFO (DicCodeController.java:54)- 用户-查询
+2020-02-18 19:32:43,678 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 

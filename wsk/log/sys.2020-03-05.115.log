@@ -1,0 +1,8 @@
+2020-03-05 17:19:14,952 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.135 seconds (JVM running for 4.22)
+2020-03-05 17:19:15,439 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-03-05 17:19:15,465 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-03-05 17:19:15,493 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 17
+2020-03-05 17:19:15,500 INFO (DicCodeUtils.java:78)- 字典加载完成！
+2020-03-05 17:21:32,550 INFO (UserController.java:132)- 用户-更新
+2020-03-05 17:21:32,559 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE USER SET USER_ID=?, USER_NAME=?, REAL_NAME=?, SEX=?, BIRTHDAY=?, TEL_NO=?, MAIL=?, LOGIN_PWD=?, IS_ALLOW_LOGIN=?, LAST_UPT_PWD_TIME=?, UTE_USER_NO=?, UTE_DT=? WHERE USER_ID=? 
+2020-03-05 17:21:32,561 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String), zhao_qg(String), 赵秋根(String), 1(String), 2020-03-05 00:00:00.0(Timestamp), 17600802256(String), sdfsf@aa.cn(String), 123456(String), 1(String), 2020-03-05 00:00:00.0(Timestamp), admin(String), 2020-03-05 17:21:32.551(Timestamp), T0001(String)

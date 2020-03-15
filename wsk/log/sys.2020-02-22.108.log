@@ -1,0 +1,12 @@
+2020-02-22 18:31:32,878 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-22 18:31:32,883 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-22 18:31:32,884 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 18:31:32,885 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 18:31:32,891 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 18:31:32,891 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 18:31:34,455 INFO (MenuController.java:82)- 菜单-详细
+2020-02-22 18:31:34,457 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-22 18:31:34,457 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String)
+2020-02-22 18:31:34,459 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 18:31:34,460 INFO (MenuController.java:84)- 菜单-详细
+2020-02-22 18:38:00,291 INFO (MenuController.java:55)- 菜单-查询

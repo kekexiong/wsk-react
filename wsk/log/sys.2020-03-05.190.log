@@ -1,0 +1,10 @@
+2020-03-05 18:46:11,041 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String)
+2020-03-05 18:46:11,043 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:46:11,044 INFO (UserController.java:84)- 用户-详细
+2020-03-05 18:46:53,167 INFO (DicCodeController.java:82)- 系统字典-详细
+2020-03-05 18:46:53,168 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-03-05 18:46:53,169 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 712846e573ab43bd86374e77b3ad991e(String)
+2020-03-05 18:46:53,171 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:46:53,172 INFO (DicCodeController.java:84)- 系统字典-详细
+2020-03-05 18:46:59,287 INFO (DicCodeController.java:133)- 系统字典-更新
+2020-03-05 18:46:59,288 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 

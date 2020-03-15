@@ -1,0 +1,12 @@
+2020-02-18 19:50:27,751 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-02-18 19:50:27,753 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-18 19:50:27,754 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SEX_CD(String)
+2020-02-18 19:50:27,755 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-18 19:50:27,756 INFO (DicCodeController.java:60)- 用户-查询
+2020-02-18 19:50:35,558 INFO (DicCodeController.java:81)- 用户-详细
+2020-02-18 19:50:35,560 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-02-18 19:50:35,561 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: e5a63231a54a498088de8ea06281f68d(String)
+2020-02-18 19:50:35,562 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-18 19:50:35,563 INFO (DicCodeController.java:83)- 用户-详细
+2020-02-18 19:50:39,067 INFO (DicCodeController.java:132)- 用户-更新
+2020-02-18 19:50:39,069 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=? WHERE UUID=? 

@@ -1,0 +1,16 @@
+2020-02-22 18:01:35,784 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 18:01:35,787 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-22 18:01:35,788 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-22 18:01:35,791 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-22 18:01:35,792 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 18:01:35,793 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 18:01:35,795 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 18:01:35,795 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 18:01:36,313 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 18:01:36,314 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-22 18:01:36,315 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-22 18:01:36,320 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-22 18:01:36,322 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 18:01:36,322 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 18:01:36,324 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 18:01:36,324 INFO (MenuController.java:61)- 菜单-查询

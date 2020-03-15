@@ -1,0 +1,10 @@
+2020-02-28 16:01:07,729 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-02-28 16:01:07,730 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: add2ade83d9f4753a57465120706a9df(String)
+2020-02-28 16:01:07,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 16:01:07,733 INFO (DicCodeController.java:84)- 菜单-详细
+2020-02-28 16:01:09,018 INFO (DicCodeController.java:133)- 菜单-更新
+2020-02-28 16:01:09,023 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-02-28 16:01:09,026 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: ROLE-STS(String), 1(String), 有效(String), 1(String), admin(String), 2020-02-28 16:01:09.022(Timestamp), add2ade83d9f4753a57465120706a9df(String)
+2020-02-28 16:01:09,034 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-28 16:01:09,062 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-28 16:01:09,062 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 

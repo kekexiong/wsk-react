@@ -1,0 +1,7 @@
+2020-02-18 20:36:31,267 INFO (MenuController.java:60)- 用户-查询
+2020-02-18 20:37:19,969 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 46888 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-18 20:37:19,972 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-18 20:37:19,973 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-18 20:37:22,772 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.333 seconds (JVM running for 4.199)
+2020-02-18 20:37:28,158 INFO (MenuController.java:54)- 用户-查询
+2020-02-18 20:37:28,531 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.ICON as "icon", t.SORT as "sort", t.IS_SHOW as "isShow", t.PERMISSSION as "permisssion", t.STS as "sts", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 

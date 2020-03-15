@@ -1,0 +1,10 @@
+2020-02-28 18:24:54,382 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 18:24:54,384 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-28 18:24:55,281 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-28 18:24:55,283 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY like '%USER-SEX_CD %' limit ?, ? 
+2020-02-28 18:24:55,283 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-28 18:24:55,284 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-28 18:24:55,286 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY like '%USER-SEX_CD %' 
+2020-02-28 18:24:55,287 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-28 18:24:55,288 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 18:24:55,288 INFO (DicCodeController.java:61)- 菜单-查询

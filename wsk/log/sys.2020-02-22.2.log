@@ -1,0 +1,16 @@
+2020-02-22 10:00:59,682 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-22 10:00:59,682 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-22 10:00:59,682 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-22 10:00:59,682 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 0(Integer), 1000(Integer)
+2020-02-22 10:00:59,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-22 10:00:59,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-22 10:00:59,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-22 10:00:59,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-22 10:00:59,686 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-22 10:00:59,686 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-22 10:00:59,686 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-22 10:00:59,686 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-22 10:00:59,687 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-22 10:00:59,687 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-22 10:00:59,687 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-22 10:00:59,687 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)

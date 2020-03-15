@@ -1,0 +1,9 @@
+2020-02-29 21:31:17,155 INFO (DicCodeController.java:82)- 菜单-详细
+2020-02-29 21:31:17,157 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-02-29 21:31:17,158 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 500edb2a40d043d9ab993d33daa6c71c(String)
+2020-02-29 21:31:17,159 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:31:17,160 INFO (DicCodeController.java:84)- 菜单-详细
+2020-02-29 21:31:23,884 INFO (DicCodeController.java:133)- 菜单-更新
+2020-02-29 21:31:23,886 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-02-29 21:31:23,888 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-TYPE(String), file(String), 菜单(String), 1(String), admin(String), 2020-02-29 21:31:23.886(Timestamp), 500edb2a40d043d9ab993d33daa6c71c(String)
+2020-02-29 21:31:23,896 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

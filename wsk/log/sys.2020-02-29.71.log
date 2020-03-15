@@ -1,0 +1,8 @@
+2020-02-29 21:51:37,677 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:51:37,678 INFO (RoleController.java:86)- 菜单-详细
+2020-02-29 21:51:37,679 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE TYPE=? order by t.SORT 
+2020-02-29 21:51:37,679 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: root(String)
+2020-02-29 21:51:37,682 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-29 21:51:37,683 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", t.STS as "sts" FROM MENU t WHERE PARENT_ID=? order by t.SORT 
+2020-02-29 21:51:37,684 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USR1000(String)
+2020-02-29 21:51:37,685 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

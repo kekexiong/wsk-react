@@ -1,0 +1,12 @@
+2020-02-21 19:03:03,632 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.024 seconds (JVM running for 3.723)
+2020-02-21 19:03:03,993 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-21 19:03:04,010 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, null
+2020-02-21 19:24:03,840 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 42307 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-21 19:24:03,845 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-21 19:24:03,846 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-21 19:24:06,098 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.8 seconds (JVM running for 3.587)
+2020-02-21 19:24:06,396 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-21 19:24:06,416 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, null
+2020-02-21 19:25:49,175 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 42520 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-21 19:25:49,178 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-21 19:25:49,179 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

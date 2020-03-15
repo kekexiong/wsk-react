@@ -1,0 +1,8 @@
+2020-02-20 21:16:07,223 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT ROLE_ID, ROLE_NAME, SCOPE, STS, DEPT_ID, REMARKS, CTE_USER_NO, CTE_DT, UTE_USER_NO, UTE_DT FROM ROLE WHERE ROLE_ID=? 
+2020-02-20 21:16:07,224 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-02-20 21:16:07,226 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-20 21:16:07,227 INFO (RoleController.java:84)- 菜单-详细
+2020-02-20 21:17:26,391 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 96245 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-20 21:17:26,399 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-20 21:17:26,400 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default
+2020-02-20 21:17:28,503 INFO (StartupInfoLogger.java:61)- Started WskApplication in 2.637 seconds (JVM running for 3.447)

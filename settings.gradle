@@ -1,0 +1,6 @@
+rootProject.name = 'wutong'
+include "cct"
+include "demo"
+include "wsk"
+include "react"
+include "react-front"

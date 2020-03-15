@@ -1,0 +1,12 @@
+2020-02-29 21:35:21,019 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-29 21:35:21,021 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-29 21:35:21,022 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:35:21,023 INFO (MenuController.java:61)- 菜单-查询
+2020-02-29 21:35:25,334 INFO (MenuController.java:82)- 菜单-详细
+2020-02-29 21:35:25,335 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-29 21:35:25,335 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USR1010(String)
+2020-02-29 21:35:25,337 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:35:25,337 INFO (MenuController.java:84)- 菜单-详细
+2020-02-29 21:35:28,671 INFO (MenuController.java:132)- 菜单-更新
+2020-02-29 21:35:28,672 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, TYPE=?, SORT=?, ICON=?, IS_SHOW=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 
+2020-02-29 21:35:28,673 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USR1010(String), 用户信息管理(String), YH1000(String), file(String), 1(Integer), (String), 1(String), 1(String), (String), admin(String), 2020-02-29 21:35:28.672(Timestamp), USR1010(String)

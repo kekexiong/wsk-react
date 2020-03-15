@@ -1,0 +1,16 @@
+2020-02-22 22:00:59,057 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-22 22:00:59,059 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 22:00:59,059 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 22:00:59,060 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 22:00:59,061 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 22:00:59,743 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 22:00:59,744 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-22 22:00:59,745 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-22 22:00:59,747 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-22 22:00:59,748 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-22 22:00:59,749 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-22 22:00:59,750 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 22:00:59,751 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 22:01:00,478 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 22:01:00,479 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-22 22:01:00,480 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)

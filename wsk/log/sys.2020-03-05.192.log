@@ -1,0 +1,12 @@
+2020-03-05 18:46:59,326 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:46:59,329 INFO (DicCodeController.java:61)- 系统字典-查询
+2020-03-05 18:47:03,390 INFO (DicCodeController.java:82)- 系统字典-详细
+2020-03-05 18:47:03,393 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT UUID, CODE_KEY, CODE_VALUE, CODE_NAME, CODE_STS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM DIC_CODE WHERE UUID=? 
+2020-03-05 18:47:03,394 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 57b7eb2f9b0c48ee92d91d52c14a4dc5(String)
+2020-03-05 18:47:03,397 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-05 18:47:03,398 INFO (DicCodeController.java:84)- 系统字典-详细
+2020-03-05 18:47:07,511 INFO (DicCodeController.java:133)- 系统字典-更新
+2020-03-05 18:47:07,513 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, CODE_STS=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-03-05 18:47:07,514 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: USER-USER_STS(String), 1(String), 正常(String), 1(String), admin(String), 2020-03-05 18:47:07.512(Timestamp), 57b7eb2f9b0c48ee92d91d52c14a4dc5(String)
+2020-03-05 18:47:07,522 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-03-05 18:47:07,538 INFO (DicCodeController.java:55)- 系统字典-查询

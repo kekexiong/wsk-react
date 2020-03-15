@@ -1,0 +1,8 @@
+2020-02-21 21:00:06,399 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:00:06,400 INFO (DicCodeController.java:84)- 菜单-详细
+2020-02-21 21:00:12,410 INFO (DicCodeController.java:133)- 菜单-更新
+2020-02-21 21:00:12,418 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE DIC_CODE SET CODE_KEY=?, CODE_VALUE=?, CODE_NAME=?, UTE_USER_NO=?, UTE_DT=? WHERE UUID=? 
+2020-02-21 21:00:12,418 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU_STS(String), 0(String), 无效(String), admin(String), 20200221(String), f3c5190fdec2453cb53e0f5e13e9c169(String)
+2020-02-21 21:00:12,423 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-21 21:00:12,440 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 21:00:12,440 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 

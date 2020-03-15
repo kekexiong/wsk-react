@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excelTemplateList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				   xsi:noNamespaceSchemaLocation="../excel_xsd/excel-template.xsd">
+	<!-- 导入错误信息导出 -->
+	<excelTemplate>
+		<excelId>userFailExcel</excelId>
+        <excelName>用户信息批量错误信息</excelName>
+        <excelFileName></excelFileName><!-- 按照不设置模板方式导出 -->
+        <excelHead headRowIndex="1">          
+          <excelColList excelColIndex="0"  excelColId="bnkCd" excelColName="主账号" excelColWidth="3000"/>
+          <excelColList excelColIndex="1"  excelColId="failReason" excelColName="错误原因" excelColWidth="3000"/>
+        </excelHead>
+	</excelTemplate>
+	<!-- 主页面导出功能 -->
+	<excelTemplate>
+		<excelId>userExportExcel</excelId>
+        <excelName>用户信息</excelName>
+        <excelFileName></excelFileName><!-- 按照不设置模板导出 -->
+        <excelHead headRowIndex="1">
+        		<excelColList excelColIndex="0" excelColId="userId" excelColName="用户ID"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="1" excelColId="userName" excelColName="昵称"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="2" excelColId="realName" excelColName="真实姓名"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="3" excelColId="sex" excelColName="性别"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="4" excelColId="birthday" excelColName="出生年月日"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="5" excelColId="telNo" excelColName="电话号码"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="6" excelColId="mail" excelColName="邮箱"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="7" excelColId="idNumber" excelColName="身份证号"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="8" excelColId="deptNo" excelColName="部门编号"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="9" excelColId="userSts" excelColName="状态"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="10" excelColId="loginPwd" excelColName="登录密码"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="11" excelColId="loginTime" excelColName="登录时间"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="12" excelColId="loginIp" excelColName="登录IP"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="13" excelColId="empowerRoles" excelColName="授权角色"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="14" excelColId="isAllowLogin" excelColName="是否允许登录"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="15" excelColId="pwdErrCunt" excelColName="密码错误次数"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="16" excelColId="lastUptPwdTime" excelColName="密码修改时间"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="17" excelColId="cteUserNo" excelColName="创建人"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="18" excelColId="uteUserNo" excelColName="更新人"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="19" excelColId="uteDt" excelColName="更新日期"  excelColWidth="3000"/>
+        		<excelColList excelColIndex="20" excelColId="cteDt" excelColName="创建日期"  excelColWidth="3000"/>
+        </excelHead>
+	</excelTemplate>
+</excelTemplateList>

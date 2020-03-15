@@ -1,0 +1,13 @@
+2020-02-29 21:32:02,772 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 7
+2020-02-29 21:32:02,775 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-29 21:32:02,775 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-29 21:32:02,777 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:32:02,778 INFO (MenuController.java:61)- 菜单-查询
+2020-02-29 21:32:06,284 INFO (MenuController.java:82)- 菜单-详细
+2020-02-29 21:32:06,285 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-29 21:32:06,286 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String)
+2020-02-29 21:32:06,288 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-29 21:32:06,289 INFO (MenuController.java:84)- 菜单-详细
+2020-02-29 21:34:10,631 INFO (StartupInfoLogger.java:55)- Starting WskApplication on localhost with PID 1179 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-29 21:34:10,637 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-29 21:34:10,637 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

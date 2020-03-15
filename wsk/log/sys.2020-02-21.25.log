@@ -1,0 +1,12 @@
+2020-02-21 12:16:00,195 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 12:16:00,195 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 12:16:00,197 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-21 12:16:00,197 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 12:16:00,198 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 1(String)
+2020-02-21 12:16:00,198 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 12:16:00,199 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 12:16:00,199 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 12:16:00,200 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 12:16:00,200 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 12:16:06,996 INFO (MenuController.java:132)- 菜单-更新
+2020-02-21 12:16:07,006 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE MENU SET MENU_ID=?, MENU_NAME=?, PARENT_ID=?, ICON=?, SORT=?, IS_SHOW=?, PERMISSSION=?, STS=?, REMARKS=?, UTE_USER_NO=?, UTE_DT=? WHERE MENU_ID=? 

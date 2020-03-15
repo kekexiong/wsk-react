@@ -1,0 +1,6 @@
+2020-03-06 12:10:26,692 INFO (StartupInfoLogger.java:61)- Started WskApplication in 5.172 seconds (JVM running for 7.507)
+2020-03-06 12:10:27,019 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-03-06 12:10:27,036 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-03-06 12:10:27,054 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 17
+2020-03-06 12:10:27,059 INFO (DicCodeUtils.java:78)- {MENU-IS_SHOW0=隐藏, MENU-IS_SHOW1=显示, USER-IS_ALLOW_LOGIN1=允许, USER-IS_ALLOW_LOGIN0=禁止, USER-USER_STS2=冻结, USER-USER_STS0=删除, USER-USER_STS1=正常, MENU-STS1=有效, MENU-TYPEfile=菜单, ROLE-STS0=无效, MENU-STS0=无效, ROLE-STS1=有效, USER-SEX2=女, USER-SEX1=男, DIC_CODE-CODE_STS1=有效, DIC_CODE-CODE_STS0=失效, MENU-TYPEroot=文件夹}加载加载字典表
+2020-03-06 12:10:27,060 INFO (DicCodeUtils.java:79)- 字典加载完成！

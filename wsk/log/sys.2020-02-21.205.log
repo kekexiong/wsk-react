@@ -1,0 +1,24 @@
+2020-02-21 19:44:31,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 19:44:31,215 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 19:44:31,215 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-21 19:44:31,215 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-21 19:44:31,215 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 19:44:31,215 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 19:44:31,216 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 19:44:31,216 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 19:44:31,217 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 19:44:31,217 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 19:44:31,217 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 19:44:31,217 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 19:44:31,217 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 19:44:31,217 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 19:44:31,218 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 19:44:31,219 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 19:44:31,220 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 19:44:31,224 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 19:44:31,225 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-21 19:44:31,225 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-21 19:44:31,227 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 19:44:31,227 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 19:44:31,228 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 19:44:31,229 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

@@ -1,0 +1,12 @@
+2020-02-21 16:08:06,875 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, ICON, SORT, IS_SHOW, PERMISSSION, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-21 16:08:06,876 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-02-21 16:08:06,878 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-21 16:08:06,878 INFO (MenuController.java:84)- 菜单-详细
+2020-02-21 16:08:07,499 INFO (MenuController.java:82)- 菜单-详细
+2020-02-21 16:08:07,500 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, ICON, SORT, IS_SHOW, PERMISSSION, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-21 16:08:07,502 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-02-21 16:08:07,503 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-21 16:08:07,503 INFO (MenuController.java:84)- 菜单-详细
+2020-02-21 16:23:44,103 INFO (StartupInfoLogger.java:55)- Starting WskApplication on zhaoqiugendeMacBook-Pro.local with PID 21131 (/Users/zhaoqiugen/gituser/wutong/wsk/out/production/classes started by zhaoqiugen in /Users/zhaoqiugen/gituser/wutong/wsk)
+2020-02-21 16:23:44,106 DEBUG (StartupInfoLogger.java:56)- Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-02-21 16:23:44,107 INFO (SpringApplication.java:651)- No active profile set, falling back to default profiles: default

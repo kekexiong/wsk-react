@@ -1,0 +1,17 @@
+2020-02-21 21:21:05,787 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:21:05,788 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-21 21:21:05,788 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 0(Integer), 1000(Integer)
+2020-02-21 21:21:05,788 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:21:05,789 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:21:05,789 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 21:21:05,790 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:21:05,790 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-02-21 21:21:05,790 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 21:21:05,790 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:21:05,791 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:21:05,791 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:21:05,792 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:21:05,792 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 21:21:05,792 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:21:05,793 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:21:05,794 INFO (DicCodeController.java:61)- 菜单-查询

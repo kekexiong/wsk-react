@@ -1,0 +1,12 @@
+2020-03-09 16:45:09,025 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-03-03 00:00:00.0(Timestamp), 2020-03-09 00:00:00.0(Timestamp)
+2020-03-09 16:45:09,027 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-09 16:45:09,028 INFO (UserController.java:61)- 用户-查询
+2020-03-09 16:45:11,612 INFO (UserController.java:82)- 用户-详细
+2020-03-09 16:45:11,613 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 
+2020-03-09 16:45:11,613 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String)
+2020-03-09 16:45:11,615 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-09 16:45:11,615 INFO (UserController.java:84)- 用户-详细
+2020-03-09 16:45:15,649 INFO (UserController.java:132)- 用户-更新
+2020-03-09 16:45:15,650 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE USER SET USER_ID=?, USER_NAME=?, REAL_NAME=?, SEX=?, BIRTHDAY=?, TEL_NO=?, MAIL=?, USER_STS=?, LOGIN_PWD=?, IS_ALLOW_LOGIN=?, LAST_UPT_PWD_TIME=?, UTE_USER_NO=?, UTE_DT=? WHERE USER_ID=? 
+2020-03-09 16:45:15,651 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0001(String), zhao_qg(String), 赵秋根(String), 1(String), 2020-03-09 00:00:00.0(Timestamp), 17600802256(String), sdfsf@aa.cn(String), 1(String), 123456(String), 1(String), 2020-03-05 00:00:00.0(Timestamp), admin(String), 2020-03-09 16:45:15.649(Timestamp), T0001(String)
+2020-03-09 16:45:15,658 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

@@ -1,0 +1,10 @@
+2020-02-28 16:00:50,115 INFO (DicCodeUtils.java:78)- 字典加载完成！
+2020-02-28 16:01:00,240 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-28 16:01:00,243 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.CODE_STS as "codeSts", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-28 16:01:00,244 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-28 16:01:00,247 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-28 16:01:00,248 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE 
+2020-02-28 16:01:00,249 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-28 16:01:00,252 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 16:01:00,253 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-28 16:01:07,727 INFO (DicCodeController.java:82)- 菜单-详细

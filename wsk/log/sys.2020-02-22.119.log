@@ -1,0 +1,8 @@
+2020-02-22 19:18:36,993 INFO (StartupInfoLogger.java:61)- Started WskApplication in 4.194 seconds (JVM running for 5.281)
+2020-02-22 19:18:37,497 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t limit ?, ? 
+2020-02-22 19:18:37,533 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 1000(Integer)
+2020-02-22 19:18:37,572 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 11
+2020-02-22 19:18:37,580 INFO (DicCodeUtils.java:84)- 字典加载完成！
+2020-02-22 19:18:54,990 INFO (MenuController.java:106)- 菜单-保存
+2020-02-22 19:18:54,995 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO MENU ( MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-02-22 19:18:55,000 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String), (String), (String), (String), (String), (String), (String), (String), (String), null, null, admin(String), 2020-02-22 19:18:54.994(Timestamp)

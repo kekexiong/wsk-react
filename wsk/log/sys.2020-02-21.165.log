@@ -1,0 +1,19 @@
+2020-02-21 18:01:57,476 INFO (MenuController.java:82)- QSXZXZZXX-详细
+2020-02-21 18:01:57,479 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, ICON, SORT, IS_SHOW, PERMISSSION, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-21 18:01:57,479 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1010(String)
+2020-02-21 18:01:57,481 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 18:01:57,481 INFO (MenuController.java:84)- QSXZXZZXX-详细
+2020-02-21 18:01:57,499 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 18:01:57,499 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-21 18:01:57,500 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? and CODE_VALUE=? limit ?, ? 
+2020-02-21 18:01:57,501 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? and CODE_VALUE=? limit ?, ? 
+2020-02-21 18:01:57,501 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 1(String), 0(Integer), 1000(Integer)
+2020-02-21 18:01:57,501 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 1(String), 0(Integer), 1000(Integer)
+2020-02-21 18:01:57,503 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 18:01:57,503 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 18:01:57,504 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-21 18:01:57,504 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? and CODE_VALUE=? 
+2020-02-21 18:01:57,505 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String), 1(String)
+2020-02-21 18:01:57,505 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String), 1(String)
+2020-02-21 18:01:57,506 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 18:01:57,506 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

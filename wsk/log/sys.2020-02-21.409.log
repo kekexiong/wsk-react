@@ -1,0 +1,25 @@
+2020-02-21 21:58:42,210 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:58:42,209 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 21:58:42,209 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 21:58:42,209 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-02-21 21:58:42,211 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:58:42,212 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:58:42,212 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:58:42,212 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM DIC_CODE WHERE CODE_KEY=? 
+2020-02-21 21:58:42,213 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 21:58:42,213 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-IS_SHOW(String)
+2020-02-21 21:58:42,213 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: MENU-STS(String)
+2020-02-21 21:58:42,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:58:42,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:58:42,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:58:42,215 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:58:42,215 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:58:42,215 INFO (DicCodeController.java:61)- 菜单-查询
+2020-02-21 21:58:42,924 INFO (MenuController.java:55)- 菜单-查询
+2020-02-21 21:58:42,928 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.ICON as "icon", t.SORT as "sort", t.IS_SHOW as "isShow", '' as "isShowName", t.PERMISSSION as "permisssion", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-21 21:58:42,929 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-21 21:58:42,932 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-02-21 21:58:42,933 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-21 21:58:42,933 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-21 21:58:42,935 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-21 21:58:42,935 INFO (MenuController.java:61)- 菜单-查询

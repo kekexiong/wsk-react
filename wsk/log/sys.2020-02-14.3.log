@@ -1,0 +1,12 @@
+2020-02-14 19:10:48,882 INFO (StartupInfoLogger.java:61)- Started WskApplication in 3.988 seconds (JVM running for 5.227)
+2020-02-14 19:11:07,533 INFO (TUserController.java:54)- 用户-查询
+2020-02-14 19:11:07,999 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-14 19:11:08,035 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-14 19:11:08,067 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-14 19:11:08,079 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-14 19:11:08,080 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-14 19:11:08,090 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-14 19:11:08,091 INFO (TUserController.java:60)- 用户-查询
+2020-02-14 19:11:14,916 INFO (TUserController.java:54)- 用户-查询
+2020-02-14 19:11:14,919 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-14 19:11:14,920 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)

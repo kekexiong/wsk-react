@@ -1,0 +1,12 @@
+2020-02-20 19:14:31,495 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 19:14:31,498 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM ROLE 
+2020-02-20 19:14:31,499 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-20 19:14:31,501 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 19:14:31,502 INFO (RoleController.java:61)- 菜单-查询
+2020-02-20 19:15:21,479 INFO (MenuController.java:55)- 菜单-查询
+2020-02-20 19:15:21,487 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.ICON as "icon", t.SORT as "sort", t.IS_SHOW as "isShow", '' as "isShowName", t.PERMISSSION as "permisssion", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 
+2020-02-20 19:15:21,488 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-20 19:15:21,490 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-20 19:15:21,491 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM MENU 
+2020-02-20 19:15:21,491 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-20 19:15:21,493 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

@@ -1,0 +1,12 @@
+2020-02-18 15:03:29,042 INFO (TUserController.java:215)- 用户-导入
+2020-02-18 15:03:29,044 INFO (TUserService.java:112)- 批量添加用户信息
+2020-02-18 15:03:29,072 INFO (ExcelUtils.java:302)- #批量导入操作，开始遍历数据表！
+2020-02-18 15:03:29,073 INFO (ExcelUtils.java:372)- #批量导入操作#遍历成功，有0条数据！
+2020-02-18 15:03:29,093 INFO (TUserController.java:54)- 用户-查询
+2020-02-18 15:03:29,095 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.name as "name", t.age as "age", t.tel as "tel", t.uuid as "uuid" FROM T_USER t limit ?, ? 
+2020-02-18 15:03:29,095 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 20(Integer)
+2020-02-18 15:03:29,097 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-02-18 15:03:29,098 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM T_USER 
+2020-02-18 15:03:29,099 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-18 15:03:29,101 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-18 15:03:29,101 INFO (TUserController.java:60)- 用户-查询

@@ -1,0 +1,10 @@
+2020-02-28 18:59:56,535 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 18:59:56,536 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM ROLE 
+2020-02-28 18:59:56,537 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-02-28 18:59:56,541 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 18:59:56,542 INFO (RoleController.java:61)- 菜单-查询
+2020-02-28 18:59:57,912 INFO (RoleController.java:82)- 菜单-详细
+2020-02-28 18:59:57,913 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT ROLE_ID, ROLE_NAME, SCOPE, STS, DEPT_ID, REMARKS, CTE_USER_NO, CTE_DT, UTE_USER_NO, UTE_DT FROM ROLE WHERE ROLE_ID=? 
+2020-02-28 18:59:57,914 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: R001(String)
+2020-02-28 18:59:57,916 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-28 18:59:57,919 INFO (RoleController.java:84)- 菜单-详细

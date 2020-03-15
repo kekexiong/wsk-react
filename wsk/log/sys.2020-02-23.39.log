@@ -1,0 +1,11 @@
+2020-02-23 20:41:52,102 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 20:41:52,103 INFO (MenuController.java:61)- 菜单-查询
+2020-02-23 20:42:00,060 INFO (MenuController.java:82)- 菜单-详细
+2020-02-23 20:42:00,061 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT FROM MENU WHERE MENU_ID=? 
+2020-02-23 20:42:00,062 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: SYS1000(String)
+2020-02-23 20:42:00,063 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-23 20:42:00,064 INFO (MenuController.java:84)- 菜单-详细
+2020-02-23 20:44:05,266 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-23 20:44:05,266 INFO (DicCodeController.java:55)- 菜单-查询
+2020-02-23 20:44:05,273 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 
+2020-02-23 20:44:05,274 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.UUID as "uuid", t.CODE_KEY as "codeKey", t.CODE_VALUE as "codeValue", t.CODE_NAME as "codeName", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM DIC_CODE t WHERE CODE_KEY=? limit ?, ? 

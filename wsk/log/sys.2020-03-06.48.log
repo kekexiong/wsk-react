@@ -1,0 +1,12 @@
+2020-03-06 17:30:37,339 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-03-06 17:30:37,341 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT COUNT(*) FROM USER 
+2020-03-06 17:30:37,342 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-03-06 17:30:37,346 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-06 17:30:37,347 INFO (UserController.java:61)- 用户-查询
+2020-03-06 17:30:39,434 INFO (UserController.java:82)- 用户-详细
+2020-03-06 17:30:39,435 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT USER_ID, USER_NAME, REAL_NAME, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT FROM USER WHERE USER_ID=? 
+2020-03-06 17:30:39,436 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0002(String)
+2020-03-06 17:30:39,438 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-03-06 17:30:39,439 INFO (UserController.java:84)- 用户-详细
+2020-03-06 17:30:42,990 INFO (UserController.java:132)- 用户-更新
+2020-03-06 17:30:42,992 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE USER SET USER_ID=?, USER_NAME=?, REAL_NAME=?, TEL_NO=?, MAIL=?, USER_STS=?, LOGIN_PWD=?, IS_ALLOW_LOGIN=?, UTE_USER_NO=?, UTE_DT=? WHERE USER_ID=? 

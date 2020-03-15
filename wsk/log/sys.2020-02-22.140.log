@@ -1,0 +1,8 @@
+2020-02-22 19:36:08,063 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-02-22 19:36:08,065 INFO (MenuController.java:61)- 菜单-查询
+2020-02-22 19:37:59,250 INFO (MenuController.java:106)- 菜单-保存
+2020-02-22 19:37:59,254 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO MENU ( MENU_ID, MENU_NAME, PARENT_ID, TYPE, SORT, ICON, IS_SHOW, STS, REMARKS, UTE_USER_NO, UTE_DT, CTE_USER_NO, CTE_DT ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-02-22 19:37:59,256 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: YH0003(String), (String), (String), (String), (String), (String), (String), (String), (String), null, null, admin(String), 2020-02-22 19:37:59.253(Timestamp)
+2020-02-22 19:37:59,260 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-02-22 19:37:59,280 INFO (MenuController.java:55)- 菜单-查询
+2020-02-22 19:37:59,283 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.MENU_ID as "menuId", t.MENU_NAME as "menuName", t.PARENT_ID as "parentId", t.TYPE as "type", '' as "typeName", t.SORT as "sort", t.ICON as "icon", t.IS_SHOW as "isShow", '' as "isShowName", t.STS as "sts", '' as "stsName", t.REMARKS as "remarks", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_USER_NO as "cteUserNo", t.CTE_DT as "cteDt" FROM MENU t limit ?, ? 

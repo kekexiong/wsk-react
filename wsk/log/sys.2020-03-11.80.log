@@ -1,0 +1,11 @@
+2020-03-11 21:08:05,296 INFO (UserController.java:215)- 用户-导入
+2020-03-11 21:08:05,297 INFO (UserService.java:118)- 批量添加用户信息
+2020-03-11 21:08:05,324 INFO (ExcelUtils.java:107)- #批量导入操作，开始遍历数据表！
+2020-03-11 21:08:05,325 INFO (ExcelUtils.java:192)- #批量导入操作#遍历成功，有2条数据！
+2020-03-11 21:08:05,326 INFO (UserService.java:151)- 批量添加用户信息
+2020-03-11 21:08:05,327 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO USER( USER_ID, USER_NAME, REAL_NAME, SEX, BIRTHDAY, TEL_NO, MAIL, ID_NUMBER, DEPT_NO, USER_STS, LOGIN_PWD, LOGIN_TIME, LOGIN_IP, EMPOWER_ROLES, IS_ALLOW_LOGIN, PWD_ERR_CUNT, LAST_UPT_PWD_TIME, CTE_USER_NO, UTE_USER_NO, UTE_DT, CTE_DT ) SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL union all SELECT ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? FROM DUAL 
+2020-03-11 21:08:05,329 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: T0003(String), zhao_qg(String), 赵秋根(String), 1(String), 2020-03-09 00:00:00.0(Timestamp), 17600802256(String), sdfsf@aa.cn(String), (String), (String), 1(String), 123456(String), (String), (String), (String), 1(String), (String), null, null, null, null, null, T0004(String), 拉菲(String), 郜娜(String), 2(String), 2020-03-04 00:00:00.0(Timestamp), 17600802256(String), sdfsf@aa.cn(String), (String), (String), 1(String), 123456(String), (String), (String), (String), 1(String), (String), null, null, null, null, null
+2020-03-11 21:08:05,334 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 2
+2020-03-11 21:08:05,335 INFO (UserService.java:156)- #批量添加用户信息#批量导入添加成功#map:{msgCd=FILE0000, successCount=2, msgInfo=导入成功, failureCount=0}
+2020-03-11 21:08:05,357 INFO (UserController.java:55)- 用户-查询
+2020-03-11 21:08:05,359 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT t.USER_ID as "userId", t.USER_NAME as "userName", t.REAL_NAME as "realName", t.SEX as "sex", t.BIRTHDAY as "birthday", t.TEL_NO as "telNo", t.MAIL as "mail", t.ID_NUMBER as "idNumber", t.DEPT_NO as "deptNo", t.USER_STS as "userSts", t.LOGIN_PWD as "loginPwd", t.LOGIN_TIME as "loginTime", t.LOGIN_IP as "loginIp", t.EMPOWER_ROLES as "empowerRoles", t.IS_ALLOW_LOGIN as "isAllowLogin", t.PWD_ERR_CUNT as "pwdErrCunt", t.LAST_UPT_PWD_TIME as "lastUptPwdTime", t.CTE_USER_NO as "cteUserNo", t.UTE_USER_NO as "uteUserNo", t.UTE_DT as "uteDt", t.CTE_DT as "cteDt" FROM USER t limit ?, ? 
